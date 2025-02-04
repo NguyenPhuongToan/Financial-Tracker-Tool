@@ -10,7 +10,7 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
-    private String SECRET_KEY = "secret"; // Use a strong secret key in production
+    private String SECRET_KEY = "nguyenphuongtoan1904"; 
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
